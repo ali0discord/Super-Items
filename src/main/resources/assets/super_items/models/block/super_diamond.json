@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "super_items:block/diamond_ore",
+    "up": "super_items:block/diamond_ore",
+    "north": "super_items:block/diamond_ore",
+    "east": "super_items:block/diamond_ore",
+    "south": "super_items:block/diamond_ore",
+    "west": "super_items:block/diamond_ore",
+    "particle": "minecraft:block/stone"
+  }
+}

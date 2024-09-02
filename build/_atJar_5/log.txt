@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\alirz\.mcreator\gradle\jdks\temurin-8-amd64-windows\jdk8u422-b05\bin\java.exe
+Arguments: '--inJar, C:\Users\alirz\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.2.42\forge-1.16.5-36.2.42-injected.jar, --outJar, C:\Users\alirz\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.5-36.2.42_mapped_snapshot_20201028-1.16.3\forge-1.16.5-36.2.42_mapped_snapshot_20201028-1.16.3.jar, --logFile, accesstransform.log, --atFile, E:\Mcreator\super_diamonds\build\_atJar_5\parent_at.cfg'
+Classpath:
+ - C:\Users\alirz\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
+Working directory: E:\Mcreator\super_diamonds\build\_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="super_items"
+version="1.0.1"
+displayName="Super  Items"
+displayURL="http://crafter.blogfa.com"
+logoFile="logo.png"
+credits="All Rights Reserved"
+authors="AliMc2021"
+description="A Mod for Drop lot of items"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.super_items]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

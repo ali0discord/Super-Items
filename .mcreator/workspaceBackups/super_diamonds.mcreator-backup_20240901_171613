@@ -1,0 +1,121 @@
+{
+  "mod_elements": [
+    {
+      "name": "SuperDiamond",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
+          "src/main/java/me/alimc2021/super_items/block/SuperDiamondBlock.java",
+          "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
+          "src/main/resources/data/super_items/loot_tables/blocks/super_diamond.json",
+          "src/main/resources/assets/super_items/models/item/super_diamond.json",
+          "src/main/resources/assets/super_items/models/block/super_diamond.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SuperItems",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/super_items/advancements/super_items.json"
+        ]
+      },
+      "path": "~/Achievments"
+    },
+    {
+      "name": "Superblocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superblocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "Superitemsoff",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superitemsoff",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Game Rules"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gamerule.superitemsoff.description": "If this game rule is enabled Super Items is not working",
+      "block.super_diamonds.super_diamond": "Super Diamond",
+      "gamerule.superitemsoff": "Super Items Off",
+      "itemGroup.tab_superblocks": "Superblocks",
+      "advancements.super_items.title": "Super Items",
+      "advancements.super_items.descr": "Break A super item",
+      "block.super_items.super_diamond": "Super Diamond"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Achievments",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Game Rules",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "super_items",
+    "modName": "Super  Items",
+    "version": "1.0.1",
+    "description": "A Mod for Drop lot of items",
+    "author": "AliMc2021",
+    "websiteURL": "http://crafter.blogfa.com",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "diamond",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "All Rights Reserved",
+    "modElementsPackage": "me.alimc2021.super_items"
+  },
+  "mcreatorVersion": 202400232117
+}
