@@ -1,7 +1,13 @@
 {
+  "item.super_items.super_armmor_helmet": "Super Diamond Armmor Helmet",
   "block.super_diamonds.super_diamond": "Super Diamond",
   "itemGroup.tab_superblocks": "Superblocks",
+  "item.super_items.supdiamond": "Super Diamond",
+  "itemGroup.tab_super_item": "Super Items",
+  "item.super_items.super_armmor_boots": "Super Diamond Armmor Boots",
   "advancements.super_items.title": "Super Items",
   "advancements.super_items.descr": "Break A super item",
-  "block.super_items.super_diamond": "Super Diamond"
+  "block.super_items.super_diamond": "Super Diamond Ore",
+  "item.super_items.super_armmor_leggings": "Super Diamond Armmor Leggings",
+  "item.super_items.super_armmor_chestplate": "Super Diamond Armmor Chestplate"
 }

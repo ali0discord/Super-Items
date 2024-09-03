@@ -2,9 +2,9 @@
   "_fv": 66,
   "_type": "tab",
   "definition": {
-    "name": "Superblocks",
+    "name": "Super Items",
     "icon": {
-      "value": "CUSTOM:SuperDiamond"
+      "value": "CUSTOM:Supdiamond"
     },
     "showSearch": false
   }

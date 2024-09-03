@@ -8,12 +8,12 @@
       "registry_name": "super_diamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
           "src/main/java/me/alimc2021/super_items/block/SuperDiamondBlock.java",
-          "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
+          "src/main/resources/assets/super_items/models/block/super_diamond.json",
+          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
           "src/main/resources/data/super_items/loot_tables/blocks/super_diamond.json",
-          "src/main/resources/assets/super_items/models/item/super_diamond.json",
-          "src/main/resources/assets/super_items/models/block/super_diamond.json"
+          "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
+          "src/main/resources/assets/super_items/models/item/super_diamond.json"
         ]
       },
       "path": "~/Blocks"
@@ -43,16 +43,29 @@
       "path": "~/tabs"
     },
     {
-      "name": "Superitemsoff",
-      "type": "gamerule",
+      "name": "Supdiamond",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "superitemsoff",
+      "registry_name": "supdiamond",
       "metadata": {
-        "files": [],
-        "type": "logic"
+        "files": [
+          "src/main/java/me/alimc2021/super_items/item/SupdiamondItem.java",
+          "src/main/resources/assets/super_items/models/item/supdiamond.json"
+        ]
       },
-      "path": "~/Game Rules"
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperItem",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_item",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
     }
   ],
   "variable_elements": [],
@@ -61,13 +74,13 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "gamerule.superitemsoff.description": "If this game rule is enabled Super Items is not working",
       "block.super_diamonds.super_diamond": "Super Diamond",
-      "gamerule.superitemsoff": "Super Items Off",
       "itemGroup.tab_superblocks": "Superblocks",
+      "item.super_items.supdiamond": "Supdiamond",
+      "itemGroup.tab_super_item": "Super Items",
       "advancements.super_items.title": "Super Items",
       "advancements.super_items.descr": "Break A super item",
-      "block.super_items.super_diamond": "Super Diamond"
+      "block.super_items.super_diamond": "Super Diamond Ore"
     }
   },
   "foldersRoot": {
@@ -95,6 +108,10 @@
       },
       {
         "name": "Game Rules",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]

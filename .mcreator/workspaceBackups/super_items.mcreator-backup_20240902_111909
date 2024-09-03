@@ -66,23 +66,6 @@
         "files": []
       },
       "path": "~/Tabs"
-    },
-    {
-      "name": "SuperArmmor",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "super_armmor",
-      "metadata": {
-        "files": [
-          "src/main/java/me/alimc2021/super_items/item/SuperArmmorItem.java",
-          "src/main/resources/assets/super_items/models/item/super_armmor_helmet.json",
-          "src/main/resources/assets/super_items/models/item/super_armmor_chestplate.json",
-          "src/main/resources/assets/super_items/models/item/super_armmor_leggings.json",
-          "src/main/resources/assets/super_items/models/item/super_armmor_boots.json"
-        ]
-      },
-      "path": "~/Armors"
     }
   ],
   "variable_elements": [],
@@ -91,17 +74,13 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.super_items.super_armmor_helmet": "Super Diamond Armmor Helmet",
       "block.super_diamonds.super_diamond": "Super Diamond",
       "itemGroup.tab_superblocks": "Superblocks",
       "item.super_items.supdiamond": "Super Diamond",
       "itemGroup.tab_super_item": "Super Items",
-      "item.super_items.super_armmor_boots": "Super Diamond Armmor Boots",
-      "advancements.super_items.title": "Super Diamonds",
+      "advancements.super_items.title": "Super Items",
       "advancements.super_items.descr": "Break A super item",
-      "block.super_items.super_diamond": "Super Diamond Ore",
-      "item.super_items.super_armmor_leggings": "Super Diamond Armmor Leggings",
-      "item.super_items.super_armmor_chestplate": "Super Diamond Armmor Chestplate"
+      "block.super_items.super_diamond": "Super Diamond Ore"
     }
   },
   "foldersRoot": {
@@ -133,10 +112,6 @@
       },
       {
         "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Trade",
         "children": []
       }
     ]

@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Super Diamond",
+    "name": "Super Diamond Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.DIAMOND"
+      "value": "CUSTOM:Supdiamond"
     },
     "dropAmount": 38,
     "useLootTableForDrops": false,
@@ -83,7 +83,7 @@
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

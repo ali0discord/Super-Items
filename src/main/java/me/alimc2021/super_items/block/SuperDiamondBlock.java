@@ -17,7 +17,7 @@ import me.alimc2021.super_items.init.SuperItemsModBlocks;
 
 public class SuperDiamondBlock extends Block {
 	public SuperDiamondBlock() {
-		super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(10f).setRequiresTool().harvestLevel(2).harvestTool(ToolType.PICKAXE).doesNotBlockMovement());
+		super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f).setRequiresTool().harvestLevel(2).harvestTool(ToolType.PICKAXE).doesNotBlockMovement());
 	}
 
 	@Override

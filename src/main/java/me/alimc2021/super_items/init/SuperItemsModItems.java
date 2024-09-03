@@ -13,11 +13,18 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.Block;
 
+import me.alimc2021.super_items.item.SuperArmmorItem;
+import me.alimc2021.super_items.item.SupdiamondItem;
 import me.alimc2021.super_items.SuperItemsMod;
 
 public class SuperItemsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SuperItemsMod.MODID);
 	public static final RegistryObject<Item> SUPER_DIAMOND = block(SuperItemsModBlocks.SUPER_DIAMOND, SuperItemsModTabs.TAB_SUPERBLOCKS);
+	public static final RegistryObject<Item> SUPDIAMOND = REGISTRY.register("supdiamond", () -> new SupdiamondItem());
+	public static final RegistryObject<Item> SUPER_ARMMOR_HELMET = REGISTRY.register("super_armmor_helmet", () -> new SuperArmmorItem.Helmet());
+	public static final RegistryObject<Item> SUPER_ARMMOR_CHESTPLATE = REGISTRY.register("super_armmor_chestplate", () -> new SuperArmmorItem.Chestplate());
+	public static final RegistryObject<Item> SUPER_ARMMOR_LEGGINGS = REGISTRY.register("super_armmor_leggings", () -> new SuperArmmorItem.Leggings());
+	public static final RegistryObject<Item> SUPER_ARMMOR_BOOTS = REGISTRY.register("super_armmor_boots", () -> new SuperArmmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

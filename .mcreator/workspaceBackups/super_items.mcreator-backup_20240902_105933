@@ -8,12 +8,12 @@
       "registry_name": "super_diamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
-          "src/main/java/me/alimc2021/super_items/block/SuperDiamondBlock.java",
           "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
           "src/main/resources/data/super_items/loot_tables/blocks/super_diamond.json",
+          "src/main/resources/assets/super_items/models/block/super_diamond.json",
           "src/main/resources/assets/super_items/models/item/super_diamond.json",
-          "src/main/resources/assets/super_items/models/block/super_diamond.json"
+          "src/main/java/me/alimc2021/super_items/block/SuperDiamondBlock.java",
+          "src/main/resources/assets/super_items/blockstates/super_diamond.json"
         ]
       },
       "path": "~/Blocks"
@@ -70,6 +70,22 @@
       {
         "name": "Achievments",
         "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Game Rules",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
       }
     ]
   },
@@ -82,6 +98,7 @@
     "websiteURL": "http://crafter.blogfa.com",
     "license": "MIT License",
     "serverSideOnly": false,
+    "modPicture": "diamond",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

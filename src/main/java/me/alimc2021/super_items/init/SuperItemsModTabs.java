@@ -8,6 +8,7 @@ import net.minecraft.item.ItemGroup;
 
 public class SuperItemsModTabs {
 	public static ItemGroup TAB_SUPERBLOCKS;
+	public static ItemGroup TAB_SUPER_ITEM;
 
 	public static void load() {
 		TAB_SUPERBLOCKS = new ItemGroup("tab_superblocks") {
@@ -18,8 +19,19 @@ public class SuperItemsModTabs {
 
 			@Override
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundImageName("item_search.png");
+		};
+		TAB_SUPER_ITEM = new ItemGroup("tab_super_item") {
+			@Override
+			public ItemStack createIcon() {
+				return new ItemStack(SuperItemsModItems.SUPDIAMOND.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
 	}
 }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "super_items:supdiamond",
           "functions": [
             {
               "count": 38,

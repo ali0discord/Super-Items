@@ -8,12 +8,12 @@
       "registry_name": "super_diamond",
       "metadata": {
         "files": [
-          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
           "src/main/java/me/alimc2021/super_items/block/SuperDiamondBlock.java",
-          "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
+          "src/main/resources/assets/super_items/models/block/super_diamond.json",
+          "src/main/resources/assets/super_items/blockstates/super_diamond.json",
           "src/main/resources/data/super_items/loot_tables/blocks/super_diamond.json",
-          "src/main/resources/assets/super_items/models/item/super_diamond.json",
-          "src/main/resources/assets/super_items/models/block/super_diamond.json"
+          "src/main/java/me/alimc2021/super_items/world/features/ores/SuperDiamondFeature.java",
+          "src/main/resources/assets/super_items/models/item/super_diamond.json"
         ]
       },
       "path": "~/Blocks"
@@ -40,7 +40,49 @@
       "metadata": {
         "files": []
       },
-      "path": "~/tabs"
+      "path": "~/Tabs"
+    },
+    {
+      "name": "Supdiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "supdiamond",
+      "metadata": {
+        "files": [
+          "src/main/java/me/alimc2021/super_items/item/SupdiamondItem.java",
+          "src/main/resources/assets/super_items/models/item/supdiamond.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SuperItem",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_item",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SuperArmmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_armmor",
+      "metadata": {
+        "files": [
+          "src/main/java/me/alimc2021/super_items/item/SuperArmmorItem.java",
+          "src/main/resources/assets/super_items/models/item/super_armmor_helmet.json",
+          "src/main/resources/assets/super_items/models/item/super_armmor_chestplate.json",
+          "src/main/resources/assets/super_items/models/item/super_armmor_leggings.json",
+          "src/main/resources/assets/super_items/models/item/super_armmor_boots.json"
+        ]
+      },
+      "path": "~/Armors"
     }
   ],
   "variable_elements": [],
@@ -49,18 +91,24 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.super_items.super_armmor_helmet": "Super Diamond Armmor Helmet",
       "block.super_diamonds.super_diamond": "Super Diamond",
       "itemGroup.tab_superblocks": "Superblocks",
+      "item.super_items.supdiamond": "Super Diamond",
+      "itemGroup.tab_super_item": "Super Items",
+      "item.super_items.super_armmor_boots": "Super Diamond Armmor Boots",
       "advancements.super_items.title": "Super Items",
       "advancements.super_items.descr": "Break A super item",
-      "block.super_items.super_diamond": "Super Diamond"
+      "block.super_items.super_diamond": "Super Diamond Ore",
+      "item.super_items.super_armmor_leggings": "Super Diamond Armmor Leggings",
+      "item.super_items.super_armmor_chestplate": "Super Diamond Armmor Chestplate"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "tabs",
+        "name": "Tabs",
         "children": []
       },
       {
@@ -81,6 +129,14 @@
       },
       {
         "name": "Game Rules",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Trade",
         "children": []
       }
     ]

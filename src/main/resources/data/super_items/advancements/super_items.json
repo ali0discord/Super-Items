@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "super_items:super_diamond",
+            "item": "super_items:supdiamond",
             "count": {
               "min": 1,
               "max": 10
